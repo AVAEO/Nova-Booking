@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4016162A257E2787006FDA2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40161629257E2787006FDA2E /* AppDelegate.swift */; };
+		4016162C257E2787006FDA2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016162B257E2787006FDA2E /* ViewController.swift */; };
+		4016162E257E2789006FDA2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4016162D257E2789006FDA2E /* Assets.xcassets */; };
+		40161631257E2789006FDA2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4016162F257E2789006FDA2E /* Main.storyboard */; };
+		4016163D257E2789006FDA2E /* Nova_BookingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016163C257E2789006FDA2E /* Nova_BookingTests.swift */; };
+		40161648257E2789006FDA2E /* Nova_BookingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40161647257E2789006FDA2E /* Nova_BookingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40161639257E2789006FDA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4016161E257E2787006FDA2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40161625257E2787006FDA2E;
+			remoteInfo = "Nova Booking";
+		};
+		40161644257E2789006FDA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4016161E257E2787006FDA2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40161625257E2787006FDA2E;
+			remoteInfo = "Nova Booking";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40161626257E2787006FDA2E /* Nova Booking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nova Booking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40161629257E2787006FDA2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4016162B257E2787006FDA2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4016162D257E2789006FDA2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40161630257E2789006FDA2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40161632257E2789006FDA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40161633257E2789006FDA2E /* Nova_Booking.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nova_Booking.entitlements; sourceTree = "<group>"; };
+		40161638257E2789006FDA2E /* Nova BookingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nova BookingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4016163C257E2789006FDA2E /* Nova_BookingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nova_BookingTests.swift; sourceTree = "<group>"; };
+		4016163E257E2789006FDA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40161643257E2789006FDA2E /* Nova BookingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nova BookingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40161647257E2789006FDA2E /* Nova_BookingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nova_BookingUITests.swift; sourceTree = "<group>"; };
+		40161649257E2789006FDA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40161623257E2787006FDA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40161635257E2789006FDA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40161640257E2789006FDA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4016161D257E2787006FDA2E = {
+			isa = PBXGroup;
+			children = (
+				40161628257E2787006FDA2E /* Nova Booking */,
+				4016163B257E2789006FDA2E /* Nova BookingTests */,
+				40161646257E2789006FDA2E /* Nova BookingUITests */,
+				40161627257E2787006FDA2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40161627257E2787006FDA2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40161626257E2787006FDA2E /* Nova Booking.app */,
+				40161638257E2789006FDA2E /* Nova BookingTests.xctest */,
+				40161643257E2789006FDA2E /* Nova BookingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40161628257E2787006FDA2E /* Nova Booking */ = {
+			isa = PBXGroup;
+			children = (
+				40161629257E2787006FDA2E /* AppDelegate.swift */,
+				4016162B257E2787006FDA2E /* ViewController.swift */,
+				4016162D257E2789006FDA2E /* Assets.xcassets */,
+				4016162F257E2789006FDA2E /* Main.storyboard */,
+				40161632257E2789006FDA2E /* Info.plist */,
+				40161633257E2789006FDA2E /* Nova_Booking.entitlements */,
+			);
+			path = "Nova Booking";
+			sourceTree = "<group>";
+		};
+		4016163B257E2789006FDA2E /* Nova BookingTests */ = {
+			isa = PBXGroup;
+			children = (
+				4016163C257E2789006FDA2E /* Nova_BookingTests.swift */,
+				4016163E257E2789006FDA2E /* Info.plist */,
+			);
+			path = "Nova BookingTests";
+			sourceTree = "<group>";
+		};
+		40161646257E2789006FDA2E /* Nova BookingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40161647257E2789006FDA2E /* Nova_BookingUITests.swift */,
+				40161649257E2789006FDA2E /* Info.plist */,
+			);
+			path = "Nova BookingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40161625257E2787006FDA2E /* Nova Booking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4016164C257E2789006FDA2E /* Build configuration list for PBXNativeTarget "Nova Booking" */;
+			buildPhases = (
+				40161622257E2787006FDA2E /* Sources */,
+				40161623257E2787006FDA2E /* Frameworks */,
+				40161624257E2787006FDA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nova Booking";
+			productName = "Nova Booking";
+			productReference = 40161626257E2787006FDA2E /* Nova Booking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40161637257E2789006FDA2E /* Nova BookingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4016164F257E2789006FDA2E /* Build configuration list for PBXNativeTarget "Nova BookingTests" */;
+			buildPhases = (
+				40161634257E2789006FDA2E /* Sources */,
+				40161635257E2789006FDA2E /* Frameworks */,
+				40161636257E2789006FDA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4016163A257E2789006FDA2E /* PBXTargetDependency */,
+			);
+			name = "Nova BookingTests";
+			productName = "Nova BookingTests";
+			productReference = 40161638257E2789006FDA2E /* Nova BookingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40161642257E2789006FDA2E /* Nova BookingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40161652257E2789006FDA2E /* Build configuration list for PBXNativeTarget "Nova BookingUITests" */;
+			buildPhases = (
+				4016163F257E2789006FDA2E /* Sources */,
+				40161640257E2789006FDA2E /* Frameworks */,
+				40161641257E2789006FDA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40161645257E2789006FDA2E /* PBXTargetDependency */,
+			);
+			name = "Nova BookingUITests";
+			productName = "Nova BookingUITests";
+			productReference = 40161643257E2789006FDA2E /* Nova BookingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4016161E257E2787006FDA2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					40161625257E2787006FDA2E = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					40161637257E2789006FDA2E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 40161625257E2787006FDA2E;
+					};
+					40161642257E2789006FDA2E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 40161625257E2787006FDA2E;
+					};
+				};
+			};
+			buildConfigurationList = 40161621257E2787006FDA2E /* Build configuration list for PBXProject "Nova Booking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4016161D257E2787006FDA2E;
+			productRefGroup = 40161627257E2787006FDA2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40161625257E2787006FDA2E /* Nova Booking */,
+				40161637257E2789006FDA2E /* Nova BookingTests */,
+				40161642257E2789006FDA2E /* Nova BookingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40161624257E2787006FDA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4016162E257E2789006FDA2E /* Assets.xcassets in Resources */,
+				40161631257E2789006FDA2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40161636257E2789006FDA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40161641257E2789006FDA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40161622257E2787006FDA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4016162C257E2787006FDA2E /* ViewController.swift in Sources */,
+				4016162A257E2787006FDA2E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40161634257E2789006FDA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4016163D257E2789006FDA2E /* Nova_BookingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4016163F257E2789006FDA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40161648257E2789006FDA2E /* Nova_BookingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4016163A257E2789006FDA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40161625257E2787006FDA2E /* Nova Booking */;
+			targetProxy = 40161639257E2789006FDA2E /* PBXContainerItemProxy */;
+		};
+		40161645257E2789006FDA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40161625257E2787006FDA2E /* Nova Booking */;
+			targetProxy = 40161644257E2789006FDA2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4016162F257E2789006FDA2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40161630257E2789006FDA2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4016164A257E2789006FDA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4016164B257E2789006FDA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4016164D257E2789006FDA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Nova Booking/Nova_Booking.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8V545823Z9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Nova Booking/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AVAEO.Nova-Booking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4016164E257E2789006FDA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Nova Booking/Nova_Booking.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8V545823Z9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Nova Booking/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AVAEO.Nova-Booking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		40161650257E2789006FDA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8V545823Z9;
+				INFOPLIST_FILE = "Nova BookingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AVAEO.Nova-BookingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nova Booking.app/Contents/MacOS/Nova Booking";
+			};
+			name = Debug;
+		};
+		40161651257E2789006FDA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8V545823Z9;
+				INFOPLIST_FILE = "Nova BookingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AVAEO.Nova-BookingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nova Booking.app/Contents/MacOS/Nova Booking";
+			};
+			name = Release;
+		};
+		40161653257E2789006FDA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8V545823Z9;
+				INFOPLIST_FILE = "Nova BookingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AVAEO.Nova-BookingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Nova Booking";
+			};
+			name = Debug;
+		};
+		40161654257E2789006FDA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8V545823Z9;
+				INFOPLIST_FILE = "Nova BookingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AVAEO.Nova-BookingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Nova Booking";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40161621257E2787006FDA2E /* Build configuration list for PBXProject "Nova Booking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4016164A257E2789006FDA2E /* Debug */,
+				4016164B257E2789006FDA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4016164C257E2789006FDA2E /* Build configuration list for PBXNativeTarget "Nova Booking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4016164D257E2789006FDA2E /* Debug */,
+				4016164E257E2789006FDA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4016164F257E2789006FDA2E /* Build configuration list for PBXNativeTarget "Nova BookingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40161650257E2789006FDA2E /* Debug */,
+				40161651257E2789006FDA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40161652257E2789006FDA2E /* Build configuration list for PBXNativeTarget "Nova BookingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40161653257E2789006FDA2E /* Debug */,
+				40161654257E2789006FDA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4016161E257E2787006FDA2E /* Project object */;
+}
