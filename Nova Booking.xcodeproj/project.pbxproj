@@ -13,6 +13,7 @@
 		40161631257E2789006FDA2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4016162F257E2789006FDA2E /* Main.storyboard */; };
 		4016163D257E2789006FDA2E /* Nova_BookingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016163C257E2789006FDA2E /* Nova_BookingTests.swift */; };
 		40161648257E2789006FDA2E /* Nova_BookingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40161647257E2789006FDA2E /* Nova_BookingUITests.swift */; };
+		40534674257E9C1900751070 /* Members.txt in Resources */ = {isa = PBXBuildFile; fileRef = 40534673257E9C1900751070 /* Members.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		40161643257E2789006FDA2E /* Nova BookingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nova BookingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40161647257E2789006FDA2E /* Nova_BookingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nova_BookingUITests.swift; sourceTree = "<group>"; };
 		40161649257E2789006FDA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40534673257E9C1900751070 /* Members.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Members.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				4016162B257E2787006FDA2E /* ViewController.swift */,
 				4016162D257E2789006FDA2E /* Assets.xcassets */,
 				4016162F257E2789006FDA2E /* Main.storyboard */,
+				40534673257E9C1900751070 /* Members.txt */,
 				40161632257E2789006FDA2E /* Info.plist */,
 				40161633257E2789006FDA2E /* Nova_Booking.entitlements */,
 			);
@@ -229,6 +232,7 @@
 			files = (
 				4016162E257E2789006FDA2E /* Assets.xcassets in Resources */,
 				40161631257E2789006FDA2E /* Main.storyboard in Resources */,
+				40534674257E9C1900751070 /* Members.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
