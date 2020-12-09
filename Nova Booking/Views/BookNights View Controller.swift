@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MemberList.swift
 //  Nova Booking
 //
 //  Created by AVAEO on 07/12/2020.
@@ -7,8 +7,9 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
+class BookNightsView: NSViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		4016162A257E2787006FDA2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40161629257E2787006FDA2E /* AppDelegate.swift */; };
-		4016162C257E2787006FDA2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016162B257E2787006FDA2E /* ViewController.swift */; };
+		4016162C257E2787006FDA2E /* Menu View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016162B257E2787006FDA2E /* Menu View Controller.swift */; };
 		4016162E257E2789006FDA2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4016162D257E2789006FDA2E /* Assets.xcassets */; };
 		40161631257E2789006FDA2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4016162F257E2789006FDA2E /* Main.storyboard */; };
 		4016163D257E2789006FDA2E /* Nova_BookingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016163C257E2789006FDA2E /* Nova_BookingTests.swift */; };
 		40161648257E2789006FDA2E /* Nova_BookingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40161647257E2789006FDA2E /* Nova_BookingUITests.swift */; };
 		40534674257E9C1900751070 /* Members.txt in Resources */ = {isa = PBXBuildFile; fileRef = 40534673257E9C1900751070 /* Members.txt */; };
+		40A96C6D2580DECF00BE1C28 /* MemberList View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A96C6C2580DECF00BE1C28 /* MemberList View Controller.swift */; };
+		40A96C782580E25B00BE1C28 /* AddMember View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A96C772580E25B00BE1C28 /* AddMember View Controller.swift */; };
+		40A96C802580E2BE00BE1C28 /* BookNights View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A96C7F2580E2BE00BE1C28 /* BookNights View Controller.swift */; };
+		40A96C852580E33C00BE1C28 /* MemberInfo View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A96C842580E33C00BE1C28 /* MemberInfo View Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		40161626257E2787006FDA2E /* Nova Booking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nova Booking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40161629257E2787006FDA2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4016162B257E2787006FDA2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4016162B257E2787006FDA2E /* Menu View Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Menu View Controller.swift"; sourceTree = "<group>"; };
 		4016162D257E2789006FDA2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40161630257E2789006FDA2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40161632257E2789006FDA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,6 +52,10 @@
 		40161647257E2789006FDA2E /* Nova_BookingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nova_BookingUITests.swift; sourceTree = "<group>"; };
 		40161649257E2789006FDA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40534673257E9C1900751070 /* Members.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Members.txt; sourceTree = "<group>"; };
+		40A96C6C2580DECF00BE1C28 /* MemberList View Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MemberList View Controller.swift"; sourceTree = "<group>"; };
+		40A96C772580E25B00BE1C28 /* AddMember View Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddMember View Controller.swift"; sourceTree = "<group>"; };
+		40A96C7F2580E2BE00BE1C28 /* BookNights View Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BookNights View Controller.swift"; sourceTree = "<group>"; };
+		40A96C842580E33C00BE1C28 /* MemberInfo View Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MemberInfo View Controller.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +106,8 @@
 		40161628257E2787006FDA2E /* Nova Booking */ = {
 			isa = PBXGroup;
 			children = (
+				40A96C892580E39000BE1C28 /* Views */,
 				40161629257E2787006FDA2E /* AppDelegate.swift */,
-				4016162B257E2787006FDA2E /* ViewController.swift */,
 				4016162D257E2789006FDA2E /* Assets.xcassets */,
 				4016162F257E2789006FDA2E /* Main.storyboard */,
 				40534673257E9C1900751070 /* Members.txt */,
@@ -125,6 +133,18 @@
 				40161649257E2789006FDA2E /* Info.plist */,
 			);
 			path = "Nova BookingUITests";
+			sourceTree = "<group>";
+		};
+		40A96C892580E39000BE1C28 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4016162B257E2787006FDA2E /* Menu View Controller.swift */,
+				40A96C7F2580E2BE00BE1C28 /* BookNights View Controller.swift */,
+				40A96C6C2580DECF00BE1C28 /* MemberList View Controller.swift */,
+				40A96C842580E33C00BE1C28 /* MemberInfo View Controller.swift */,
+				40A96C772580E25B00BE1C28 /* AddMember View Controller.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4016162C257E2787006FDA2E /* ViewController.swift in Sources */,
+				40A96C852580E33C00BE1C28 /* MemberInfo View Controller.swift in Sources */,
+				4016162C257E2787006FDA2E /* Menu View Controller.swift in Sources */,
+				40A96C782580E25B00BE1C28 /* AddMember View Controller.swift in Sources */,
 				4016162A257E2787006FDA2E /* AppDelegate.swift in Sources */,
+				40A96C802580E2BE00BE1C28 /* BookNights View Controller.swift in Sources */,
+				40A96C6D2580DECF00BE1C28 /* MemberList View Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
